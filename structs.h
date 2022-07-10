@@ -10,7 +10,7 @@ typedef struct {
 lineData;/*in structs line 8*/
 	
 typedef struct node{  /*build sturct for node to create linked list*/
-	unsigned int data;
+	int data; /*because its before converting*/
 	struct node *next;}
 node;
 	
@@ -75,20 +75,6 @@ word;
 word that will represent data like stringsd and nums
 word for command like the first struct
 word for register 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 typedef struct command_word{
